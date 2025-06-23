@@ -75,12 +75,18 @@ This project consists of several interconnected components, from database setup 
 The core data for this study is contained in a MySQL database dump. You'll need to download this file and load it into your local MySQL instance.
 
 ```bash
-# 1. Download the database dump file from Google Drive:
-#    Open this link in your browser and download 'magist_dump.sql':
+# 1. Download the zipped database dump file from Google Drive:
+#    Open this link in your browser and download 'magist_dump.sql.zip':
 #    https://drive.google.com/file/d/151GL0hwaA0NmVUupNnNQVRzhV0YCCuaH/view?usp=sharing
 
-# 2. Save the downloaded 'magist_dump.sql' file into the 'Data/' folder of your cloned repository.
-#    (e.g., market-expansion-data-study/Data/magist_dump.sql)
+# 2. Save the downloaded 'magist_dump.sql.zip' file into the 'Data/' folder of your cloned repository.
+#    (e.g., market-expansion-data-study/Data/magist_dump.sql.zip)
+
+# Navigate to the directory where you saved the zip file, e.g.:
+cd market-expansion-data-study/Data/
+
+# Unzip the file. This will create 'magist_db.sql' in the same directory.
+unzip magist_db.sql.zip
 
 # 3. Log in to your MySQL server
 mysql -u your_username -p
@@ -91,11 +97,22 @@ CREATE DATABASE IF NOT EXISTS magist_db;
 # 5. Select the newly created database
 USE magist_db;
 
-# 6. Load the database dump. Ensure you run this command from the root of your cloned repository
-#    (e.g., 'market-expansion-data-study/'), as the 'magist_dump.sql' file is located in the 'Data/' folder.
-SOURCE Data/magist_dump.sql;
+# 6. Load the database dump.
+#    Since the file is zipped, you need to decompress it and pipe its content directly into MySQL.
+#    Ensure you run the command below from the root of your cloned repository
+#    (e.g., 'market-expansion-data-study/'), as the zipped dump is in the 'Data/' folder.
 
-# You can now exit the MySQL client
+#    For .gz files (most common for SQL dumps):
+gunzip < Data/magist_dump.sql.gz | mysql -u your_username -p magist_db
+
+#    If the file is a .zip archive (less common for SQL dumps, but possible):
+#    unzip -p Data/magist_dump.sql.zip | mysql -u your_username -p magist_db
+
+#    Alternatively, you can first unzip the file and then SOURCE it (less efficient for large files):
+#    gunzip Data/magist_dump.sql.gz  # This will create Data/magist_dump.sql and remove the .gz
+#    SOURCE Data/magist_dump.sql;
+
+# You can now exit the MySQL client (if you logged in separately)
 # exit;
 ```
 
