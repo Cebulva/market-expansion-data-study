@@ -65,7 +65,7 @@ cd market-expansion-data-study
 
 This project consists of several interconnected components, from database setup and SQL analysis to data visualization and a final presentation. Follow the steps below to explore each part.
 
-4.1. Database Setup
+### 4.1. Database Setup
 The core data for this study is contained in a MySQL database dump. You'll need to download this file and load it into your local MySQL instance.
 
 ```bash
@@ -93,12 +93,12 @@ SOURCE Data/magist_dump.sql;
 # exit;
 ```
 
-4.2. SQL Analysis
+### 4.2. SQL Analysis
 The SQL queries used for data extraction and analysis are stored in the Code/ directory. These queries formed the basis for insights from the magist_db database.
 
 **View SQL Analysis Code**: Located in the Code/ folder. View [SQL Analysis File](https://github.com/Cebulva/market-expansion-data-study/blob/main/Code/Exploring_Magist.sql)
 
-4.3. Data Visualization (Tableau)
+### 4.3. Data Visualization (Tableau)
 
 Visualizations created for this study are available as a Tableau workbook and a PDF export.
 
@@ -106,7 +106,7 @@ Visualizations created for this study are available as a Tableau workbook and a 
 - **View Plots PDF**: A static export of all created Tableau plots. [MagistPlots.pdf](https://github.com/Cebulva/market-expansion-data-study/blob/main/Tableau/MagistPlots.pdf)
 - **Raw Data for Plots**: The CSV files used as data sources for the Tableau plots. [Data Folder with CSVs](https://github.com/Cebulva/market-expansion-data-study/tree/main/Data)
 
-4.4. Final Presentation
+### 4.4. Final Presentation
 
 The final of this study is a presentation summarizing the findings and delivering the final recommendation.
 
