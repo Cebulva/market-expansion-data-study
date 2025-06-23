@@ -182,11 +182,3 @@ The presentation showing the project's scope, methodology, key findings, and the
 <br>
 <a href="https://docs.google.com/presentation/d/1kwiiCyD-UfqA4ABKSzQ96Ii-RYC8u2okvhK28bIOpmE/edit?usp=sharing">View Presentation</a>
 </details>
-
-<details>
-<summary>Challenge 6: JOINs</summary>
-<br>
-A comprehensive demonstration of various `JOIN` types (e.g., `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`, `FULL JOIN`) to combine data from multiple related tables.
-<br>
-<a href="Challenges/sql_challenges_6.sql">View Challenge 6 Code</a>
-</details>
