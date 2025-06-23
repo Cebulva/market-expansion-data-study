@@ -27,6 +27,8 @@ Our analysis concludes that Magist is unsuitable for our high-end tech products 
 
 For detailed documentation on the case study, companies, schema, business questions, and presentation structure, please refer to the [Miro Board](https://miro.com/app/board/uXjVIGWwBlk=/?moveToWidget=3458764623835036060&cot=14).
 
+---
+
 ## 2. Features
 
 - **Real-World Business Challenge**: Deals with a complex and sometimes unclear business situation.
@@ -35,6 +37,8 @@ For detailed documentation on the case study, companies, schema, business questi
 - **Smart Business Choices**: Highlights the team's skill in making good decisions even with incomplete information.
 - **Recommendation from Data**: The project ends with a clear suggestion based on our data analysis, research, and visuals.
 - **Complete Data Process**: Covers everything from getting data (SQL dump) to analyzing it (SQL queries), visualizing it (Tableau), and sharing the final message (Presentation).
+
+---
 
 ## 3. Getting Started
 
@@ -60,6 +64,8 @@ git clone https://github.com/Cebulva/market-expansion-data-study.git
 # Navigate into the cloned repository directory
 cd market-expansion-data-study
 ```
+
+---
 
 ### 4. Usage
 
@@ -112,6 +118,7 @@ The final of this study is a presentation summarizing the findings and deliverin
 
 - **View Presentation**: [Google Slides Presentation](https://docs.google.com/presentation/d/1kwiiCyD-UfqA4ABKSzQ96Ii-RYC8u2okvhK28bIOpmE/edit?usp=sharing) (Offers online collaborative editing and a variety of templates.)
 
+---
 
 ### 5. Project Components
 
