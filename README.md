@@ -22,16 +22,16 @@ Markdown
 
 ## 1. Introduction
 
-This repository showcases our Market Expansion Data Study, a collaborative project tackling a complex, real-world business challenge to determine if partnering with "Magist" is advisable. As a project team, we used data analysis and strategic thinking to develop a data-driven recommendation. This project highlights our proficiency in SQL for data analysis and our skills in data visualization using Tableau to create plots for our final presentation. 
-Our analysis concludes that Magist is unsuitable for our high-end tech products due to their low tech order volume and minimal tech revenue. We recommend seeking an alternative partner. 
+This repository presents our Market Expansion Data Study, a collaborative project that addresses a challenging business problem: deciding whether to partner with "Magist." As a team of data professionals, we used data analysis and business understanding to create a data-driven recommendation. 
+This project shows our skills in SQL for data analysis and our abilities in data visualization with Tableau, creating charts for our final presentation. Our analysis shows that Magist isn't a good match for our high-end tech products because of their low volume of tech orders and small tech revenue. Therefore, we suggest finding a different partner. 
 
-For detailed documentation on the case study, companies, schema, business questions, and presentation structure, please refer to the [Miro Board](https://miro.com/app/board/uXjVIGWwBlk=/?moveToWidget=3458764623835036060&cot=14).
+For full details on the case study, the companies, the database layout (schema), key business questions and answers, and our presentation structure, please see the [Miro Board](https://miro.com/app/board/uXjVIGWwBlk=/?moveToWidget=3458764623835036060&cot=14).
 
 ---
 
 ## 2. Features
 
-- **Real-World Business Challenge**: Deals with a complex and sometimes unclear business situation.
+- **Real-World Business Challenge**: Deals with a sometimes unclear business situation.
 - **SQL Analysis**: Shows how I prepared and analyzed data using SQL to find important information.
 - **Tableau Visualizations**: Demonstrates my ability to create effective charts and dashboards for good data communication.
 - **Smart Business Choices**: Highlights the team's skill in making good decisions even with incomplete information.
@@ -49,9 +49,9 @@ This section guides you on how to set up your environment to review the various 
 To fully explore this project, you will need the following software:
 
 -  **MySQL**: For setting up and interacting with the magist_dump.sql database.
-  - [MySQL Workbench](https://dev.mysql.com/downloads/workbench/) (>= Version 8.0.41)
+    - [MySQL Workbench](https://dev.mysql.com/downloads/workbench/) (>= Version 8.0.41)
 - **Tableau** Public / Desktop: To view and interact with the Tableau visualization workbook (Magist.twbx).
-  - [Tableau Public](https://public.tableau.com/app/discover) or [Tableau Desktop](https://www.tableau.com/products/desktop)
+    - [Tableau Public](https://public.tableau.com/app/discover) or [Tableau Desktop](https://www.tableau.com/products/desktop)
 
 ### 3.2. Installation
 
@@ -124,7 +124,7 @@ Visualizations created for this study are available as a Tableau workbook and a 
 
 The final of this study is a presentation summarizing the findings and delivering the final recommendation.
 
-- **View Presentation**: [Google Slides Presentation](https://docs.google.com/presentation/d/1kwiiCyD-UfqA4ABKSzQ96Ii-RYC8u2okvhK28bIOpmE/edit?usp=sharing) (Offers online collaborative editing and a variety of templates.)
+- **View Presentation**: [Google Slides Presentation](https://docs.google.com/presentation/d/1kwiiCyD-UfqA4ABKSzQ96Ii-RYC8u2okvhK28bIOpmE/edit?usp=sharing) (Some slides are using animations which will require to view them in presentation mode)
 
 ---
 
