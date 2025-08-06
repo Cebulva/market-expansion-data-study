@@ -1,5 +1,3 @@
-Markdown
-
 # [Market Expansion Data Study]
 
 ---
